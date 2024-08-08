@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+
+}
+#form{
+    background-color: white;
+    width: 25%;
+    margin: 120px auto;
+    padding: 5rem;
+    box-shadow: 1rem 1rem 0.5rem rgb(82, 11, 77);
+    border-radius: 0.6rem;
+}
+#btn{
+    color: #fff;
+    background-color: rgb(105, 15, 109);
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 42em){
+    #form{
+        width: 65%;
+        padding: 4rem;
+    }
+}
